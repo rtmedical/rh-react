@@ -1,0 +1,9 @@
+cherrypy
+cherrypy-cors
+cheroot
+pydicom>=0.9.9
+jsonmerge
+deepmerge
+requests
+nibabel
+six

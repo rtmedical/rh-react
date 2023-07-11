@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  python-api:
+    build: ./python-api
+    volumes:
+      - ./python-api:/var/
+    ports:
+      - "9999:9999"
+    command: "python3 app.py"
+    restart: always
+
+  #Você terá que editar esse serviço
+  react-api:
+    build: ./react-api
+    volumes:
+      - ./react-api:/var/
+    ports:
+      - "3000:3000"
+    restart: always
