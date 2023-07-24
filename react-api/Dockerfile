@@ -1,1 +1,13 @@
-#AQUI VOCE TERÁ QUE CRIAR O SEU DOCKERFILE
+FROM node:18-alpine
+
+WORKDIR /var
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD [ "npm", "start" ]
