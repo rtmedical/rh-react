@@ -1,8 +1,8 @@
 # RH - React
 
 <div align="center">
-    <img src="https://github.com/Futila/test/blob/master/docs/loadedImage.png" width="600px" />
-    <img src="https://github.com/Futila/test/blob/master/docs/rotatedImage.png" width="600px" />
+    <img src="https://github.com/Futila/rh-react/blob/dev_fernando/docs/loadedImage.png" width="600px" />
+    <img src="https://github.com/Futila/rh-react/blob/dev_fernando/docs/rotatedImage.png" width="600px" />
 </div>
 
 ## 💻 Projeto
