@@ -43,4 +43,6 @@ export function rotateImage() {
 
   viewport.render();
 }
+
+//not implemented
 export function applyCrosshair() {}

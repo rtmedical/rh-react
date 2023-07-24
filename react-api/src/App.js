@@ -25,6 +25,8 @@ const App = () => {
         <div className="actions">
           <button onClick={() => renderImage()}>Carregar imagem</button>
           <button onClick={() => rotateImage()}>Rotacionar imagem</button>
+
+          {/* Missing this functionality */}
           <button onClick={() => applyCrosshair()}>Aplicar crosshair</button>
         </div>
 
