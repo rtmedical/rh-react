@@ -14,8 +14,6 @@ services:
     build: ./react-api
     volumes:
       - ./react-api:/var/
-      - /var/node_modules
     ports:
       - "3000:3000"
-    stdin_open: true
     restart: always
