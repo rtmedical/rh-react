@@ -1,7 +1,8 @@
-version: '3.3'
+version: '3.8'
 services:
   python-api:
     build: ./python-api
+    container_name: python-api-container
     volumes:
       - ./python-api:/var/
     ports:
@@ -9,13 +10,12 @@ services:
     command: "python3 app.py"
     restart: always
 
-  #Você terá que editar esse serviço
   react-api:
     build: ./react-api
+    container_name: react-api-container
     volumes:
       - ./react-api:/var/
-      - /var/node_modules
     ports:
       - "3000:3000"
-    stdin_open: true
+    command: "npm start"
     restart: always
