@@ -16,10 +16,10 @@ $ docker-compose down
 ```
 
 ## Observações
-1. Segui a branch main para a realização do desafio
-1. Não consegui implementar o Crosshair
-2. O erro "config.gpuTier is undefined" não foi resolvido
-3. Dockerfile implementado
+1. Não obtive sucesso na implementação do recurso Crosshair.
 
+2. Ainda persiste o erro "config.gpuTier is undefined", o qual não consegui resolver.
+
+3. O Dockerfile foi implementado de acordo com as especificações.
 
 
